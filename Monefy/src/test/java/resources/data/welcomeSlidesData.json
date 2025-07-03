@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+      "imageDisplayed": true,
+      "headerText": "Say hi to your new finance tracker",
+      "detailTextContains": "You’re amazing for taking this first step towards getting better control over your money and financial goals.",
+      "pageIndicatorDisplayed": true,
+      "continueButtonText": "GET STARTED"
+    },
+    {
+      "imageDisplayed": true,
+      "headerText": "Control your spend and start saving",
+      "detailTextContains": "Monefy helps you control your spending, track your expenses, and ultimately save more money.",
+      "pageIndicatorDisplayed": true,
+      "continueButtonText": "AMAZING"
+    },
+    {
+      "imageDisplayed": true,
+      "headerText": "Great! Want us to send you small reminders?",
+      "detailTextContains": "Users who have reminders activated are 2x more likely to stick to their budgets.",
+      "pageIndicatorDisplayed": true,
+      "continueButtonText": "YES, PLEASE!",
+      "permissionPopupExpected": true,
+      "popupAction": "allow"
+    },
+    {
+      "imageDisplayed": true,
+      "headerText": "Together we’ll reach your financial goals",
+      "detailTextContains": "If you fail to plan, you plan to fail. Monefy will help you stay focused on tracking your spend and reach your financial goals.",
+      "pageIndicatorDisplayed": true,
+      "continueButtonText": "I’M READY"
+    },
+    {
+      "imageDisplayed": true,
+      "purchaseButton": true,
+      "pageIndicatorDisplayed": false,
+      "crossIconDisplayed": true
+    },
+    {
+      "imageDisplayed": true,
+      "titleText": "Claim your one-time welcome offer",
+      "features": [
+        "Unlock everything in the app",
+        "Create your own categories",
+        "Add recurring records",
+        "Sync to multiple devices"
+      ],
+      "onlyRightNowText": "ONLY RIGHT NOW",
+      "tryFreeTextContains": "Try 7 days for free\nThen €30.99 annually",
+      "ratingValue": "5.0",
+      "reviewCountText": "127k+ reviews",
+      "trialConversionText": "Free trial converts to paid after 7 days, costing €30.99. Cancel anytime to avoid charges.",
+      "policyTextDisplayed": true,
+      "policyText": "Privacy Policy and Terms of Use",
+      "purchaseButton": true,
+      "crossIconDisplayed": true,
+      "restoreButtonDisplayed": true,
+      "restoreButtonText": "RESTORE",
+      "noRestoreText": "No purchases found",
+      "purchaseButtonText": "CLAIM MY OFFER",
+      "purchaseScreenHeading": "Monefy Premium - Yearly"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "IncomeTestData": {
+    "defaultMonth": "July",
+    "currentDate": "Wednesday, 2 July",
+    "defaultIncomeValue": "0",
+    "defaultExpenseValue": "0",
+    "defaultBalanceValue": "0",
+    "incomeSalary": "1000",
+    "incomeSalaryNote": "Salary"
+  }
+}

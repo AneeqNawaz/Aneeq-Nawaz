@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  appium-test:
+    build: .
+    container_name: appium-test-runner
+    volumes:
+      - .:/usr/src/app             # Mount your project
+      - /dev/bus/usb:/dev/bus/usb  # Grant access to USB devices
+    privileged: true
+    environment:
+      - DEVICE_UDID=${DEVICE_UDID}
+      - APPIUM_HOST=http://host.docker.internal:4723
+    ports:
+      - "4723:4723"
+    command: >
+      sh -c "adb devices &&
+             mvn clean test"

@@ -1,0 +1,14 @@
+{
+  "expensesToAdd": [
+    {
+      "amount": "600",
+      "note": "Rent",
+      "category": "House"
+    },
+    {
+      "amount": "50",
+      "note": "Groceries",
+      "category": "Food"
+    }
+  ]
+}

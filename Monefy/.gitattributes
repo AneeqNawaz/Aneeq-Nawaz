@@ -1,0 +1,37 @@
+# Ensure consistent line endings across platforms
+* text=auto
+
+# Java source files
+*.java     text eol=lf
+
+# XML configuration and POM files
+*.xml      text eol=lf
+
+# JSON configuration files
+*.json     text eol=lf
+
+# Appium capabilities or test data in CSV
+*.csv      text eol=lf
+
+# Markdown docs
+*.md       text eol=lf
+
+# HTML reports (like Allure)
+*.html     text eol=lf
+*.css      text eol=lf
+*.js       text eol=lf
+
+# Log and output files
+*.log      text eol=lf
+*.txt      text eol=lf
+
+# Ignore binary files for diffing
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+
+# IntelliJ IDEA and test output dirs (optional)
+.idea/     export-ignore
+test-output/ export-ignore
+target/    export-ignore
